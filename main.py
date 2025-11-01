@@ -1,7 +1,8 @@
 # основной файл для проекта hello-world-semver
 import datetime
 
-print("Hello world!") # В этой строке выводится приветствие
+user_name = "Angelina"# Новая переменная для имени пользователя
+print(f"Hello + {user_name}!") #  Обновлено приветствие
 
 # Новая функция: печать текущей даты и времени
 current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
